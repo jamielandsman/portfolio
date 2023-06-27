@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ff0000;
   --secondary-color: #f5f2fe;
+  --tertiary-color: #0026ff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -68,9 +69,10 @@ h3 {
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   text-align: center;
   display: block;
+  font-size: 20px;
 }
 
 .about {
